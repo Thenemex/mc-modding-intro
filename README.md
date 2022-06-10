@@ -6,7 +6,8 @@
 
 ## General Info
 ***
-Introduction/Learning and test repository for modding with Forge in Minecraft 1.18.2
+Introduction/Learning and test repository for modding with Forge in Minecraft 1.18.2\
+Must be compiled using Java 17
 
 ## Technologies
 ***
