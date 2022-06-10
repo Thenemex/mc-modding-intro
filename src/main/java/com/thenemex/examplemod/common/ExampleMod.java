@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.thenemex.examplemod.common;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
