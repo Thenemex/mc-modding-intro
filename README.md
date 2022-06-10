@@ -6,11 +6,11 @@
 
 ## General Info
 ***
-Introduction/Learning and test repository for modding with Forge in Minecraft 1.18.2\
-Must be compiled using Java 17
+Introduction/Learning and test repository for modding with Forge in Minecraft 1.19
 
 ## Technologies
 ***
 A list of technologies used within the project :
-* [Forge MDK] (files.minecraftforge.net): Version 40.1.0
-* [Gradle] (gradle.org) : Version 7.4
+* [Java JDK] (oracle.com/java/technologies) : 17.0.3
+* [Forge MDK] (files.minecraftforge.net): Version 41.0.16
+* [Gradle] (gradle.org) : Version 7.4.2
