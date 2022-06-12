@@ -1,7 +1,7 @@
 package com.thenemex.examplemod;
 
 import com.mojang.logging.LogUtils;
-import com.thenemex.examplemod.events.MyStaticForgeEventHandler;
+import com.thenemex.examplemod.events.MyForgeEventHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -55,8 +55,9 @@ public class ExampleMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        // Adding the static event class for various tests events
-        MinecraftForge.EVENT_BUS.register(MyStaticForgeEventHandler.class);
+
+        // Adding the event class for counting items picked
+        MinecraftForge.EVENT_BUS.register(new MyForgeEventHandler());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
