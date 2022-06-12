@@ -55,7 +55,7 @@ public class ExampleMod
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        // Adding the static event class for Arrows events
+        // Adding the static event class for various tests events
         MinecraftForge.EVENT_BUS.register(MyStaticForgeEventHandler.class);
     }
 
