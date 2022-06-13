@@ -12,5 +12,5 @@ Introduction/Learning and test repository for modding with Forge in Minecraft 1.
 ***
 A list of technologies used within the project :
 * [Java JDK] (oracle.com/java/technologies) : 17.0.3
-* [Forge MDK] (files.minecraftforge.net): Version 41.0.16
+* [Forge MDK] (files.minecraftforge.net): Version 41.0.19
 * [Gradle] (gradle.org) : Version 7.4.2
